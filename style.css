@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls {
+  position: fixed;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+  padding: 20px;
+  border: none;
+  backdrop-filter: blur(20px);
+  background-color: rgba(230, 230, 230, 0.4);
+  border-radius: 4px;
+  display: grid;
+  gap: 5px;
+}
+
+.controls > div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div class="controls">
+      <div>
+        Weight
+        <input type="range" min="1" max="20" class="weight" /><label
+          class="weight"
+        ></label>
+      </div>
+      <div>
+        Number
+        <input type="range" min="4" max="300" class="number" /><label
+          class="number"
+        ></label>
+      </div>
+      <div>
+        Color 1
+        <input type="color" class="color" value="#ff0000" />
+      </div>
+      <div>
+        Color 2
+        <input type="color" class="color" value="#0000ff" />
+      </div>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
